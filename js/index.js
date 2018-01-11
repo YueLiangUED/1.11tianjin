@@ -9,7 +9,7 @@
     global.addEventListener('resize',remChange,false);
 })(window);
 $(function () {
-    flag = 0;
+    var flag = 0;
     //首页"生成我的故事"按钮
     $('#firPageBtn').on('click',function () {
         $('.firPage').hide();
@@ -18,11 +18,11 @@ $(function () {
         $('#heliu').addClass('act');
     });
     //点击引导浮层关闭浮层
-    $('.guide').on('click',function () {
+    $('.guide').on('touchend',function () {
         hideGuide();
     });
     //点击遮罩关闭所有浮层
-    $('#mask').on('click',function () {
+    $('#mask').on('touchend',function () {
         hideGuide();
         $('#tc_sm').hide();
         $('#tc_lj').hide();
@@ -115,7 +115,6 @@ $(function () {
                         $('footer').show();
                     }
                     flag ++;
-
                 }
             }
         }
