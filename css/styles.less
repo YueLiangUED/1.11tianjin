@@ -1,0 +1,379 @@
+html,body{
+  background-color: #63b0d8;
+}
+section.otherBox{
+  div{
+    position: absolute;
+  }
+  div:nth-child(1){
+    top: 0rem;
+    left: 0rem;
+    width: 1.07rem;
+    height: .8rem;
+    background: url("../images/sun.png") center no-repeat;
+    background-size: cover;
+    z-index: 50;
+  }
+  div:nth-child(2){
+    top: .11rem;
+    right: 1.73rem;
+    width: 1.53rem;
+    height: .91rem;
+    background: url("../images/yun_1.png") center no-repeat;
+    background-size: cover;
+  }
+  div:nth-child(3){
+    top: 4.03rem;
+    left: 0;
+    width: .6rem;
+    height: .53rem;
+    background: url("../images/yun_2.png") center no-repeat;
+    background-size: cover;
+  }
+  div:nth-child(4){
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 4.41rem;
+    height: 4.35rem;
+    background: url("../images/heliu.png") center no-repeat;
+    background-size: cover;
+  }
+  div:nth-child(4).act{
+    width: 7.5rem;
+    height: 3.03rem;
+    background: url("../images/heliu_1.png") center no-repeat;
+    background-size: cover;
+  }
+}
+/*首页*/
+section.firPage{
+  position: absolute;
+  top: 1.13rem;
+  right: 0;
+  div:nth-child(1){
+    width: 7.06rem;
+    height: 9.72rem;
+    background: url("../images/firPage.png") center no-repeat;
+    background-size: cover;
+  }
+  div:nth-child(2){
+    margin: -.3rem 0 0 1.3rem;
+    width: 4.45rem;
+    height: 1.48rem;
+    background: url("../images/firPageBtn.png") center no-repeat;
+    background-size: cover;
+  }
+}
+/*引导浮层*/
+section.guide{
+  display: none;
+  position: fixed;
+  width: 2.4rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 200;
+  >div{
+    position: relative;
+    top: 4.13rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 1.25rem;
+    height: 2.85rem;
+    background: url("../images/up.png") center no-repeat;
+    background-size: cover;
+    p{
+      position: absolute;
+      top: -1.4rem;
+      left: -.575rem;
+      width: 2.4rem;
+      font-size: .4rem;
+      line-height: .6rem;
+      text-align: center;
+      color: #ffffff;
+    }
+    div{
+      position: absolute;
+      top: 2.2rem;
+      width: 4.4rem;
+      height: 5.42rem;
+      background: url("../images/shou.png") center no-repeat;
+      background-size: cover;
+    }
+  }
+}
+/*账单部分*/
+main{
+  display: none;
+  position: fixed;
+  top: 1.27rem;
+  right: 0;
+  width: 7.22rem;
+  height: 10.57rem;
+  background: url("../images/zhangdanBg.png") center no-repeat;
+  background-size: cover;
+  >div{
+    div{
+      top: 0rem;
+      left: 0;
+      position: absolute;
+      width: 6.89rem;
+      height: 9.32rem;
+      transition: transform 1s linear;
+      -webkit-transition: transform 1s linear;
+      transform-origin: top center;
+      -webkit-transform-origin: top center;
+      p:nth-child(1){
+        position: absolute;
+        left: .54rem;
+        bottom: 3rem;
+        font-size: .39rem;
+        color: #ffb24f;
+        span:nth-child(1){
+          display: inline-block;
+          width: .62rem;
+          height: .54rem;
+          font-size: .5rem;
+          line-height: .54rem;
+          color: #ffffff;
+          background-color: #ffb24f;
+        }
+      }
+      p:nth-child(2){
+        position: absolute;
+        left: .54rem;
+        bottom: .6rem;
+        font-size: .26rem;
+        color: #666666;
+        span{
+          color: #779cf4;
+        }
+      }
+    }
+    div:nth-child(1){
+      background: url("../images/page_1.png") center no-repeat;
+      background-size: cover;
+      z-index: 10;
+    }
+    div:nth-child(2){
+      background: url("../images/page_2.png") center no-repeat;
+      background-size: cover;
+      z-index: 9;
+    }
+    div:nth-child(3){
+      background: url("../images/page_3.png") center no-repeat;
+      background-size: cover;
+      z-index: 8;
+    }
+    div:nth-child(4){
+      background: url("../images/page_4.png") center no-repeat;
+      background-size: cover;
+      z-index: 7;
+    }
+    div:nth-child(5){
+      background: url("../images/page_5.png") center no-repeat;
+      background-size: cover;
+      z-index: 6;
+    }
+    div.tree{
+      top: 8.5rem;
+      left: 5.3rem;
+      right: 0;
+      width: 1.36rem;
+      height: 1.84rem;
+      background: url("../images/tree.png") center no-repeat;
+      background-size: cover;
+      z-index: 20;
+    }
+
+    div:last-child{
+      top: -.23rem;
+      left: .6rem;
+      width: 5.98rem;
+      height: .7rem;
+      background: url("../images/taili.png") center no-repeat;
+      background-size: cover;
+      z-index: 10;
+    }
+  }
+}
+/*最后结果页*/
+footer{
+  >div{
+    display: none;
+    position: absolute;
+    top: 1.13rem;
+    right: 0;
+    >div{
+      width: 7.27rem;
+      height: 9.72rem;
+    }
+    span{
+      position: absolute;
+      bottom: -1rem;
+      width: 3.14rem;
+      height: 1.2rem;
+      background: url("../images/ljBtn.png") center no-repeat;
+      background-size: cover;
+    }
+    i{
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -1.2rem;
+      margin: auto;
+      width: 1.05rem;
+      height: .26rem;
+      background: url("../images/hdsm.png") center no-repeat;
+      background-size: cover;
+    }
+  }
+  >div:nth-child(1){
+    >div{
+      background: url("../images/newPage.png") center no-repeat;
+      background-size: cover;
+    }
+    span{
+      left: 2rem;
+    }
+  }
+  >div:nth-child(2){
+    >div{
+      background: url("../images/oldPage.png") center no-repeat;
+      background-size: cover;
+    }
+    span:nth-child(2){
+      left: .4rem;
+      background: url("../images/lookBtn.png") center no-repeat;
+      background-size: cover;
+    }
+    span:nth-child(3){
+      left: 3.8rem;
+    }
+  }
+}
+/*活动说明弹窗*/
+#tc_sm{
+  display: none;
+  position: fixed;
+  top: 20%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 5.63rem;
+  z-index: 500;
+  div:nth-child(1){
+    position: relative;
+    width: 5.63rem;
+    height: .9rem;
+    background: url("../images/tcTitle_1.png") center no-repeat;
+    background-size: cover;
+    span{
+      position: absolute;
+      top: -.2rem;
+      right: -.2rem;
+      width: .4rem;
+      height: .4rem;
+      background: url("../images/close.png") center no-repeat;
+      background-size: cover;
+    }
+  }
+  div:nth-child(2){
+    box-sizing: border-box;
+    padding: .25rem .3rem;
+    width: 5.63rem;
+    height: 7.42rem;
+    border-radius: 0 0 .1rem .1rem;
+    background-color: #ffffff;
+    ul{
+      overflow: scroll;
+      height: 6.8rem;
+      li{
+        font-size: .22rem;
+        text-align: justify;
+        line-height: .4rem;
+        color: #333333;
+        span{
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+/*领奖弹窗*/
+#tc_lj{
+  display: none;
+  position: fixed;
+  top: 20%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 5.63rem;
+  z-index: 500;
+  div:nth-child(1){
+    position: relative;
+    width: 5.63rem;
+    height: 2.41rem;
+    background: url("../images/tcTitle_2.png") center no-repeat;
+    background-size: cover;
+    span{
+      position: absolute;
+      top: -.2rem;
+      right: -.2rem;
+      width: .4rem;
+      height: .4rem;
+      background: url("../images/close.png") center no-repeat;
+      background-size: cover;
+    }
+  }
+  div:nth-child(2){
+    position: relative;
+    box-sizing: border-box;
+    padding: .55rem .3rem;
+    width: 5.63rem;
+    height: 3.75rem;
+    border-radius: 0 0 .1rem .1rem;
+    background-color: #ffffff;
+    p{
+      font-size: .28rem;
+      text-align: center;
+      line-height: .5rem;
+      color: #333333;
+    }
+    div{
+      position: absolute;
+      bottom: .34rem;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 4.77rem;
+      height: .77rem;
+      background: url("../images/fxBtn.png") center no-repeat;
+      background-size: cover;
+    }
+  }
+}
+/*分享浮层*/
+#tc_fx{
+  display: none;
+  position: fixed;
+  top: .22rem;
+  right: .4rem;
+  width: 4.81rem;
+  height: 4.36rem;
+  background: url("../images/fxBg.png") center no-repeat;
+  background-size: cover;
+  z-index: 500;
+}
+/*遮罩层*/
+.mask {
+  position: absolute;
+  top: 0px;
+  background-color: #000;
+  z-index: 100;
+  left: 0px;
+  opacity: 0.8;
+}

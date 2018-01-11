@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet/less" type="text/css" href="css/styles.less" />
+    <!--<link rel="stylesheet" href="css/style.css">-->
+    <script src="js/less-1.7.0.min.js"></script>
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script charset="utf-8" type="text/javascript">
+        var less = {
+            env: 'development',
+            poll: 1000
+        };
+        less.watch;
+    </script>
+</head>
+<body>
+<!--装饰-->
+<section class="otherBox">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div id="heliu"></div>
+</section>
+<!--首页-->
+<section class="firPage">
+    <div></div>
+    <div id="firPageBtn"></div>
+</section>
+<!--引导浮层-->
+<section class="guide">
+    <div>
+        <p>上滑试试<br>看看你的故事</p>
+        <div></div>
+    </div>
+</section>
+<!--账单部分-->
+<main>
+    <div class="flipbook">
+        <div id="page1">
+            <p>
+                <span>12</span>月<span>30</span>日
+            </p>
+            <p>这一天，是我们第一次相遇<br>不知不觉我们已经相伴<span>800</span>天</p>
+        </div>
+        <div id="page2">
+            <p>
+                <span>12</span>月<span>30</span>日
+            </p>
+            <p>这一天你充值了第一笔话费，金额为<span>300</span>元<br>2017年期间最多一次充值<span>1000</span>元</p>
+        </div>
+        <div id="page3">
+            <p></p>
+            <p>今年您一共用了<span>20000M</span>流量<br>超越了<span>100%</span>的人</p>
+        </div>
+        <div id="page4">
+            <p></p>
+            <p>今年您的通话总时长为<span>20000</span>分钟<br>超越了<span>100%</span>的人</p>
+        </div>
+        <div id="page5">
+            <p></p>
+            <p>这一年你参加天小翼有礼活动<span>20</span>次<br>我们所有的努力都是为给你更好</p>
+        </div>
+        <div class="tree"></div>
+        <div></div>
+    </div>
+</main>
+<!--最后结果页面-->
+<footer>
+    <!--新用户-->
+    <div id="newUser">
+        <div></div>
+        <span class="lj"></span>
+        <i class="hdsm"></i>
+    </div>
+    <!--老用户-->
+    <div id="oldUser">
+        <div></div>
+        <span id="look"></span>
+        <span class="lj"></span>
+        <i class="hdsm"></i>
+    </div>
+</footer>
+
+<!--活动说明弹窗-->
+<div id="tc_sm">
+    <div>
+        <span class="tc_close"></span>
+    </div>
+    <div>
+        <ul>
+            <li>
+                <span>活动时间：</span>2018年1月19日-1月31日
+            </li>
+            <li>
+                <span>奖项设置：</span>
+            </li>
+            <li>50M、300M电信本地流量</li>
+            <li>5元、10元、50元、100元翼支付</li>
+            <li>奖品数量有限,先到先得</li>
+            <li><span>活动规则：</span></li>
+            <li>1)2017年12月31日前注册用户进入活动页面，点击“生成我的故事”，通过滑动屏幕，即可阅读“2017你与电信不得不说的故事”页面，阅读页面后可获得活动奖励；</li>
+            <li>2)2018年注册用户参与活动无法获取活动完整页面，仅可进入活动奖励领取页面，领取活动奖励；</li>
+            <li></li>
+            <li>3)活动奖励先到先得，发完即止。</li>
+            <li><span>注意事项：</span></li>
+            <li>1)流量奖品由客服人员为用户充值和订购，以0元本地流量包的形式发放，中奖后五个工作日内充值到账；</li>
+        </ul>
+    </div>
+</div>
+<!--领奖弹窗-->
+<div id="tc_lj">
+    <div>
+        <span class="tc_close"></span>
+    </div>
+    <div>
+        <p>恭喜您!</p>
+        <p>获得电信200M本地流量</p>
+        <p>奖品发放规则详见活动说明</p>
+        <div id="fx"></div>
+    </div>
+</div>
+<!--分享浮层-->
+<div id="tc_fx"></div>
+
+
+<!--遮罩层-->
+<div class="mask" id="mask"></div>
+
+
+<script src="js/index.js"></script>
+</body>
+</html>
