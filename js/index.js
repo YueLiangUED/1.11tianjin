@@ -89,7 +89,7 @@ $(function () {
             moveEndY = e.originalEvent.targetTouches[0].pageY;
             X = moveEndX - startX;
             Y = moveEndY - startY;
-            if(Math.abs(Y) > Math.abs(X) && Y < 0){
+            if(Math.abs(Y) > Math.abs(X) && Y < 0 && $(this).hasClass('tree') === false){
                 $(this).css({
                     transform: "rotateX(50deg)"
                 });
@@ -97,7 +97,7 @@ $(function () {
         },
         touchEnd: function (e) {
             e.preventDefault();
-            if(Math.abs(Y) > Math.abs(X) && Y < 0){
+            if(Math.abs(Y) > Math.abs(X) && Y < 0 && $(this).hasClass('tree') === false){
                 $(this).css({
                     transform: "rotateX(270deg)",
                 });
