@@ -17,8 +17,62 @@
         };
         less.watch;
     </script>
+    <script src="js/imgLoader.js"></script>
+    <script>
+        imgLoader([
+            './images/close.png',
+            './images/firPage.png',
+            './images/firPageBtn.png',
+            './images/fxBg.png',
+            './images/fxBtn.png',
+            './images/hdsm.png',
+            './images/heliu.png',
+            './images/heliu_1.png',
+            './images/ljBtn.png',
+            './images/lookBtn.png',
+            './images/newPage.png',
+            './images/oldPage.png',
+            './images/page_1.png',
+            './images/page_2.png',
+            './images/page_3.png',
+            './imaegs/page_4.png',
+            './images/page_5.png',
+            './images/shou.png',
+            './images/sun.png',
+            './images/taili.png',
+            './images/tcTitle_1.png',
+            './images/tcTitle_2.png',
+            './images/tree.png',
+            './images/up.png',
+            './images/yun_1.png',
+            './images/yun_2.png',
+            './images/zhangdanBg.png'
+        ],function (percentage) {
+            var percentT = percentage * 100;
+            $('#loader_info').html((parseInt(percentT)) + '%');
+            $('#loader__progress')[0].style.width = percentT + '%';
+            if (percentage == 1) {
+                window.setTimeout(function () {
+                    $('#loader').remove();
+                    $('#firstPage').show();
+                },500);
+            }
+        });
+    </script>
 </head>
 <body>
+<!--loading-->
+<div id="loader">
+    <div class="yun">
+        <div id="girl"></div>
+        <div id="ball"></div>
+    </div>
+    <div id="loader_info"></div>
+    <div>
+        <div id="loader__progress"></div>
+    </div>
+    <div></div>
+</div>
 <!--装饰-->
 <section class="otherBox">
     <div></div>
