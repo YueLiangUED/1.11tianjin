@@ -9,6 +9,7 @@
     global.addEventListener('resize',remChange,false);
 })(window);
 $(function () {
+    flag = 0;
     //首页"生成我的故事"按钮
     $('#firPageBtn').on('click',function () {
         $('.firPage').hide();
@@ -58,6 +59,21 @@ $(function () {
     //查看我的故事按钮
     $('#look').on('click',function () {
         $('footer').hide();
+        $('#page1').css({
+            transform: 'rotateX(0deg)'
+        });
+        $('#page2').css({
+            transform: 'rotateX(0deg)'
+        });
+        $('#page3').css({
+            transform: 'rotateX(0deg)'
+        });
+        $('#page4').css({
+            transform: 'rotateX(0deg)'
+        });
+        $('#page5').css({
+            transform: 'rotateX(0deg)'
+        });
         $('.firPage').show();
     });
     //向上滑动
@@ -86,10 +102,20 @@ $(function () {
                     transform: "rotateX(270deg)",
                 });
                 if($(this).context.id === 'page5'){
-                    $('main').hide();
                     $('#heliu').removeClass('act');
                     $('#oldUser').show();//如果是老用户
                     //$('#newUser').show();//如果是新用户
+                    if(flag === 0){
+                        $('main').hide();
+                    }else{
+                        $(this).css({
+                            transform: "rotateX(0deg)"
+                        });
+                        $('main').hide();
+                        $('footer').show();
+                    }
+                    flag ++;
+
                 }
             }
         }
