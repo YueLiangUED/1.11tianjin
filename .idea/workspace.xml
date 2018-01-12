@@ -2,48 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9f5873b-21f8-48b0-aa6c-2e2079979fa7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/calendar_10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/calendar_11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/calendar_12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/calendar_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/calendar_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/calendar_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/calendar_5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/calendar_6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/calendar_7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/calendar_8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/calendar_9.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sun.gif" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/close.png" afterPath="$PROJECT_DIR$/images/close.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/firPage.png" afterPath="$PROJECT_DIR$/images/firPage.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/firPageBtn.png" afterPath="$PROJECT_DIR$/images/firPageBtn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/fxBg.png" afterPath="$PROJECT_DIR$/images/fxBg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/fxBtn.png" afterPath="$PROJECT_DIR$/images/fxBtn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/hdsm.png" afterPath="$PROJECT_DIR$/images/hdsm.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/heliu.png" afterPath="$PROJECT_DIR$/images/heliu.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/heliu_1.png" afterPath="$PROJECT_DIR$/images/heliu_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ljBtn.png" afterPath="$PROJECT_DIR$/images/ljBtn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/lookBtn.png" afterPath="$PROJECT_DIR$/images/lookBtn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/newPage.png" afterPath="$PROJECT_DIR$/images/newPage.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/oldPage.png" afterPath="$PROJECT_DIR$/images/oldPage.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/page_1.png" afterPath="$PROJECT_DIR$/images/page_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/page_2.png" afterPath="$PROJECT_DIR$/images/page_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/page_3.png" afterPath="$PROJECT_DIR$/images/page_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/page_4.png" afterPath="$PROJECT_DIR$/images/page_4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/page_5.png" afterPath="$PROJECT_DIR$/images/page_5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/shou.png" afterPath="$PROJECT_DIR$/images/shou.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/sun.png" afterPath="$PROJECT_DIR$/images/sun.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/taili.png" afterPath="$PROJECT_DIR$/images/taili.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tcTitle_1.png" afterPath="$PROJECT_DIR$/images/tcTitle_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tcTitle_2.png" afterPath="$PROJECT_DIR$/images/tcTitle_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/tree.png" afterPath="$PROJECT_DIR$/images/tree.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/up.png" afterPath="$PROJECT_DIR$/images/up.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/yun_1.png" afterPath="$PROJECT_DIR$/images/yun_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/yun_2.png" afterPath="$PROJECT_DIR$/images/yun_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/zhangdanBg.png" afterPath="$PROJECT_DIR$/images/zhangdanBg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.less" afterPath="$PROJECT_DIR$/css/styles.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="0109tianjin.iws" />
@@ -65,13 +23,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-186">
-              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            <state relative-caret-position="378">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
               <folding>
-                <element signature="e#1876#3411#0" expanded="false" />
+                <element signature="e#1887#3422#0" expanded="false" />
                 <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -83,7 +41,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
+            <state relative-caret-position="752">
               <caret line="113" column="41" selection-start-line="113" selection-start-column="41" selection-end-line="113" selection-end-column="41" />
               <folding />
             </state>
@@ -106,55 +64,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calendar_12.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/calendar_12.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calendar_1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/calendar_1.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calendar_2.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/calendar_2.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calendar_3.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/calendar_3.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calendar_5.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/calendar_5.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calendar_7.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/calendar_7.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calendar_8.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/images/calendar_8.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -173,6 +82,7 @@
         <option value="$PROJECT_DIR$/css/styles.less" />
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.min.css" />
       </list>
     </option>
   </component>
@@ -242,20 +152,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="0109tianjin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="0109tianjin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -367,12 +263,12 @@
       <workItem from="1515563920114" duration="7620000" />
       <workItem from="1515572148005" duration="734000" />
       <workItem from="1515573967088" duration="588000" />
-      <workItem from="1515574787776" duration="25820000" />
+      <workItem from="1515574787776" duration="27010000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43464000" />
+    <option name="totallyTimeSpent" value="44654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1238" height="777" extended-state="0" />
@@ -384,7 +280,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -404,24 +300,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
-          <folding>
-            <element signature="e#1876#3411#0" expanded="false" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/page_1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -449,7 +327,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1876#3411#0" expanded="false" />
+            <element signature="e#1887#3422#0" expanded="false" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -659,41 +537,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="e#2442#3440#0" expanded="false" />
-            <element signature="e#3463#3879#0" expanded="false" />
-            <element signature="e#3902#4635#0" expanded="false" />
-            <element signature="e#8033#8979#0" expanded="false" />
-            <element signature="e#8995#10091#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="113" column="41" selection-start-line="113" selection-start-column="41" selection-end-line="113" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-186">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="e#1876#3411#0" expanded="false" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/calendar_1.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -714,14 +557,65 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/calendar_8.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/images/calendar_7.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/calendar_8.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="113" column="41" selection-start-line="113" selection-start-column="41" selection-end-line="113" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12147">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#2442#3440#0" expanded="false" />
+            <element signature="e#3463#3879#0" expanded="false" />
+            <element signature="e#3902#4635#0" expanded="false" />
+            <element signature="e#8033#8979#0" expanded="false" />
+            <element signature="e#8995#10091#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2751">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="e#1887#3422#0" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
