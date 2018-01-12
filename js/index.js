@@ -103,7 +103,7 @@ $(function () {
                 });
                 if($(this).context.id === 'page5'){
                     $('#heliu').removeClass('act');
-                    $('#firPageBtn').hide();
+                    $('#firPage').hide();
                     $('#oldUser').show();//如果是老用户
                     //$('#newUser').show();//如果是新用户
                     if(flag === 0){
