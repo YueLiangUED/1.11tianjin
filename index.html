@@ -48,58 +48,57 @@
             './images/yun_2.png',
             './images/zhangdanBg.png'
         ],function (percentage) {
-            var percentT = 0,
-                    $calendar = $('.calendar');
-            var timer1 = window.setInterval(function () {
-                $calendar.find('div:nth-child(1)').addClass('act');
-                window.setTimeout(function () {
-                    $calendar.find('div:nth-child(2)').addClass('act');
-                },1600);
-                window.setTimeout(function () {
-                    $calendar.find('div:nth-child(3)').addClass('act');
-                },2400);
-                window.setTimeout(function () {
-                    $calendar.find('div:nth-child(4)').addClass('act');
-                },3200);
-                window.setTimeout(function () {
-                    $calendar.find('div:nth-child(5)').addClass('act');
-                },4000);
-                window.setTimeout(function () {
-                    $calendar.find('div:nth-child(6)').addClass('act');
-                },4800);
-                window.setTimeout(function () {
-                    $calendar.find('div:nth-child(7)').addClass('act');
-                },5600);
-                window.setTimeout(function () {
-                    $calendar.find('div:nth-child(8)').addClass('act');
-                },6400);
-                window.setTimeout(function () {
-                    $calendar.find('div:nth-child(9)').addClass('act');
-                },7200);
-                window.setTimeout(function () {
-                    $calendar.find('div:nth-child(10)').addClass('act');
-                },8000);
-                window.setTimeout(function () {
-                    $calendar.find('div:nth-child(11)').addClass('act');
-                },8800);
-            },800);
-            var timer2 = window.setInterval(function () {
-                if(percentT > 99){
+            window.onload = function () {
+                var percentT = 0,
+                        $calendar = $('.calendar');
+                var timer1 = window.setInterval(function () {
+                    $calendar.find('div:nth-child(1)').addClass('act');
                     window.setTimeout(function () {
-                        $('#loader').remove();
-                        $('.otherBox').show();
-                        $('.firPage').show();
-                        $('html,body').css('background','#63b0d8');
-                        window.clearInterval(timer1);
-                        window.clearInterval(timer2);
-                    },1000);
-                }else if(percentT < 99){
-                    percentT += 5;
-                    $('#loader_info').html((parseInt(percentT)) + '%......');
-                }
-            },500);
-            if (percentage == 1) {
-
+                        $calendar.find('div:nth-child(2)').addClass('act');
+                    },1600);
+                    window.setTimeout(function () {
+                        $calendar.find('div:nth-child(3)').addClass('act');
+                    },2400);
+                    window.setTimeout(function () {
+                        $calendar.find('div:nth-child(4)').addClass('act');
+                    },3200);
+                    window.setTimeout(function () {
+                        $calendar.find('div:nth-child(5)').addClass('act');
+                    },4000);
+                    window.setTimeout(function () {
+                        $calendar.find('div:nth-child(6)').addClass('act');
+                    },4800);
+                    window.setTimeout(function () {
+                        $calendar.find('div:nth-child(7)').addClass('act');
+                    },5600);
+                    window.setTimeout(function () {
+                        $calendar.find('div:nth-child(8)').addClass('act');
+                    },6400);
+                    window.setTimeout(function () {
+                        $calendar.find('div:nth-child(9)').addClass('act');
+                    },7200);
+                    window.setTimeout(function () {
+                        $calendar.find('div:nth-child(10)').addClass('act');
+                    },8000);
+                    window.setTimeout(function () {
+                        $calendar.find('div:nth-child(11)').addClass('act');
+                    },8800);
+                },800);
+                var timer2 = window.setInterval(function () {
+                    if(percentT > 99){
+                        window.setTimeout(function () {
+                            $('#loader').remove();
+                            $('.otherBox').show();
+                            $('.firPage').show();
+                            $('html,body').css('background','#63b0d8');
+                            window.clearInterval(timer1);
+                            window.clearInterval(timer2);
+                        },1000);
+                    }else if(percentT < 99){
+                        percentT += 5;
+                        $('#loader_info').html((parseInt(percentT)) + '%......');
+                    }
+                },500);
             }
         });
     </script>
