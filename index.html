@@ -7,8 +7,8 @@
     <title>Title</title>
     <link rel="stylesheet" href="css/reset.min.css">
     <link rel="stylesheet/less" type="text/css" href="css/styles.less" />
-    <!--<link rel="stylesheet" href="css/style.min.css">-->
-    <script src="js/less-1.7.0.min.js"></script>
+    <link rel="stylesheet" href="css/style.min.css">
+    <!--<script src="js/less-1.7.0.min.js"></script>-->
     <script src="js/jquery-1.10.1.min.js"></script>
     <!--<script charset="utf-8" type="text/javascript">
         var less = {
@@ -55,35 +55,35 @@
                     $calendar.find('div:nth-child(1)').addClass('act');
                     window.setTimeout(function () {
                         $calendar.find('div:nth-child(2)').addClass('act');
-                    },1600);
+                    },500);
                     window.setTimeout(function () {
                         $calendar.find('div:nth-child(3)').addClass('act');
-                    },2400);
+                    },1000);
                     window.setTimeout(function () {
                         $calendar.find('div:nth-child(4)').addClass('act');
-                    },3200);
+                    },1500);
                     window.setTimeout(function () {
                         $calendar.find('div:nth-child(5)').addClass('act');
-                    },4000);
+                    },2000);
                     window.setTimeout(function () {
                         $calendar.find('div:nth-child(6)').addClass('act');
-                    },4800);
+                    },2500);
                     window.setTimeout(function () {
                         $calendar.find('div:nth-child(7)').addClass('act');
-                    },5600);
+                    },3000);
                     window.setTimeout(function () {
                         $calendar.find('div:nth-child(8)').addClass('act');
-                    },6400);
+                    },3500);
                     window.setTimeout(function () {
                         $calendar.find('div:nth-child(9)').addClass('act');
-                    },7200);
+                    },4000);
                     window.setTimeout(function () {
                         $calendar.find('div:nth-child(10)').addClass('act');
-                    },8000);
+                    },4500);
                     window.setTimeout(function () {
                         $calendar.find('div:nth-child(11)').addClass('act');
-                    },8800);
-                },800);
+                    },5000);
+                },500);
                 var timer2 = window.setInterval(function () {
                     if(percentT > 99){
                         window.setTimeout(function () {
@@ -95,10 +95,10 @@
                             window.clearInterval(timer2);
                         },1000);
                     }else if(percentT < 99){
-                        percentT += 5;
+                        percentT += 10;
                         $('#loader_info').html((parseInt(percentT)) + '%......');
                     }
-                },500);
+                },550);
             }
         });
     </script>
