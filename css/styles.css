@@ -347,7 +347,7 @@ footer > div:nth-child(2) span:nth-child(3) {
 #tc_sm {
   display: none;
   position: fixed;
-  top: 20%;
+  top: 15%;
   left: 0;
   right: 0;
   margin: auto;
