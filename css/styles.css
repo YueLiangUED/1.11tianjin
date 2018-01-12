@@ -303,11 +303,11 @@ footer > div {
 }
 footer > div > div {
   width: 7.27rem;
-  height: 9.72rem;
+  height: 9.53rem;
 }
 footer > div span {
   position: absolute;
-  bottom: -1rem;
+  bottom: -0.6rem;
   width: 3.14rem;
   height: 1.2rem;
   background: url("../images/ljBtn.png") center no-repeat;
@@ -317,7 +317,7 @@ footer > div i {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -1.1rem;
+  bottom: -0.9rem;
   margin: auto;
   width: 1.05rem;
   height: .26rem;
