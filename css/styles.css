@@ -1,6 +1,103 @@
 html,
 body {
-  background-color: #63b0d8;
+  background-color: #f8f8f8;
+}
+/*loading*/
+#loader {
+  font-size: .26rem;
+  text-align: center;
+  line-height: .4rem;
+  color: #333333;
+}
+#loader .calendar div {
+  position: absolute;
+  top: 3.15rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 2.48rem;
+  height: 3.33rem;
+  transition: transform 1s linear;
+  -webkit-transition: transform 1s linear;
+  transform-origin: top center;
+  -webkit-transform-origin: top center;
+}
+#loader .calendar div.act {
+  transform: rotateX(270deg);
+}
+#loader .calendar div:nth-child(1) {
+  background: url("../images/calendar_1.png") center no-repeat;
+  background-size: cover;
+  z-index: 20;
+}
+#loader .calendar div:nth-child(2) {
+  background: url("../images/calendar_2.png") center no-repeat;
+  background-size: cover;
+  z-index: 19;
+}
+#loader .calendar div:nth-child(3) {
+  background: url("../images/calendar_3.png") center no-repeat;
+  background-size: cover;
+  z-index: 18;
+}
+#loader .calendar div:nth-child(4) {
+  background: url("../images/calendar_4.png") center no-repeat;
+  background-size: cover;
+  z-index: 17;
+}
+#loader .calendar div:nth-child(5) {
+  background: url("../images/calendar_5.png") center no-repeat;
+  background-size: cover;
+  z-index: 16;
+}
+#loader .calendar div:nth-child(6) {
+  background: url("../images/calendar_6.png") center no-repeat;
+  background-size: cover;
+  z-index: 15;
+}
+#loader .calendar div:nth-child(7) {
+  background: url("../images/calendar_7.png") center no-repeat;
+  background-size: cover;
+  z-index: 14;
+}
+#loader .calendar div:nth-child(8) {
+  background: url("../images/calendar_8.png") center no-repeat;
+  background-size: cover;
+  z-index: 13;
+}
+#loader .calendar div:nth-child(9) {
+  background: url("../images/calendar_9.png") center no-repeat;
+  background-size: cover;
+  z-index: 12;
+}
+#loader .calendar div:nth-child(10) {
+  background: url("../images/calendar_10.png") center no-repeat;
+  background-size: cover;
+  z-index: 11;
+}
+#loader .calendar div:nth-child(11) {
+  background: url("../images/calendar_11.png") center no-repeat;
+  background-size: cover;
+  z-index: 10;
+}
+#loader .calendar div:nth-child(12) {
+  background: url("../images/calendar_12.png") center no-repeat;
+  background-size: cover;
+  z-index: 9;
+}
+#loader p {
+  position: absolute;
+  top: 6.8rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#loader > p:last-child {
+  top: 7.2rem;
+}
+/*装饰*/
+section.otherBox {
+  display: none;
 }
 section.otherBox div {
   position: absolute;
@@ -48,6 +145,7 @@ section.otherBox div:nth-child(4).act {
 }
 /*首页*/
 section.firPage {
+  display: none;
   position: absolute;
   top: 1.13rem;
   right: 0;
